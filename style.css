@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap');
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+:root {
+    /* =========================================
+       天體綠 Celestial Green (主色調 Primary) 
+       由淺到深，適用於背景、按鈕、主視覺
+    ========================================= */
+    --celestial-green-50: #e5f2f4;
+    /* 極淺綠：適用於次要背景或大面積底色 */
+    --celestial-green-100: #bedfe3;
+    /* 淺綠：適用於卡片背景 */
+    --celestial-green-200: #93c9d1;
+    /* 柔和青綠：適用於邊框或反白文字區塊 */
+    --celestial-green-300: #65b1bd;
+    /* 明亮天體綠：適用於次要按鈕 */
+    --celestial-green-400: #409ca9;
+    /* 懸停狀態 (Hover) 綠 */
+    --celestial-green-500: #1e8594;
+    /* 鮮豔天體綠 */
+    --celestial-green-600: #1e646e;
+    /* ⭐ 原始核心色 (--mycolor03)：主按鈕、導覽列 */
+    --celestial-green-700: #174f57;
+    /* 按鈕點擊狀態 (Active) */
+    --celestial-green-800: #0f3940;
+    /* 深綠：適用於深色模式卡片 */
+    --celestial-green-900: #002c2f;
+    /* ⭐ 原始核心色 (--mycolor04)：深色背景、頁腳 */
+
+    /* =========================================
+       深空藍 Deep Space Blue (輔助色 Secondary)
+       用來平衡綠色，增加科技與沈穩感
+    ========================================= */
+    --space-blue-50: #ebf3f8;
+    --space-blue-100: #dce7f0;
+    --space-blue-300: #9bbad3;
+    --space-blue-500: #5580a0;
+    /* ⭐ 原始核心色 (--mycolor06) */
+    --space-blue-700: #2a587d;
+    --space-blue-900: #023459;
+    /* ⭐ 原始核心色 (--mycolor02) */
+
+    /* =========================================
+       隕石灰藍 Asteroid Slate (第三色 Tertiary)
+       帶有灰調的藍色，非常適合用作側邊欄或次要文字
+    ========================================= */
+    --slate-blue-100: #e3e7ee;
+    --slate-blue-300: #b0bbcf;
+    --slate-blue-500: #7184a3;
+    --slate-blue-700: #32435f;
+    /* ⭐ 原始核心色 (--mycolor08) */
+    --slate-blue-900: #1a2333;
+
+    /* =========================================
+       耀斑暖銅 Solar Flare (點綴色 Accent)
+       強烈的對比色，用來吸引目光，例如「立即購買」按鈕或警告標示
+    ========================================= */
+    --solar-flare-50: #fcf6f0;
+    --solar-flare-100: #f8eadd;
+    --solar-flare-300: #e6c2a1;
+    --solar-flare-500: #cc8a4d;
+    /* ⭐ 原始核心色 (--mycolor07) */
+    --solar-flare-700: #995c24;
+    --solar-flare-900: #4d2b0e;
+
+    /* =========================================
+       宇宙中性色 Cosmic Neutrals (文字、邊框、背景)
+       融合了你的月塵灰與星光銀
+    ========================================= */
+    --neutral-50: #f8f9fa;
+    /* 幾乎純白：亮色模式主背景 */
+    --neutral-100: #e9ecef;
+    --neutral-200: #bdbdbf;
+    /* ⭐ 原始核心色 (--mycolor05)：分隔線、停用狀態 */
+    --neutral-300: #b2a59f;
+    /* ⭐ 原始核心色 (--mycolor01)：次要文字 (亮色模式) */
+    --neutral-500: #6c757d;
+    --neutral-700: #495057;
+    /* 主文字 (亮色模式) */
+    --neutral-800: #343a40;
+    /* 次要文字 (深色模式) */
+    --neutral-900: #0d1117;
+    /* 極深灰/黑：深色模式主背景 */
+
+    /* 絕對黑白 */
+    --black: #000000;
+    /* ⭐ 原 --textcolor01 */
+    --white: #ffffff;
+    /* ⭐ 原 --textcolor02 */
+}
